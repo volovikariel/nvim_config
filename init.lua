@@ -1,3 +1,10 @@
+-- PLUGINS TO LOOK AT:
+-- LazyGit (+ FloatTerm says Dawgears)
+-- LazyDocker
+--
+
+
+
 --  NOTE: Must happen before plugins are required (otherwise wrong leader will be used)
 vim.g.mapleader = ' '
 vim.g.maplocalleader = ' '
@@ -242,7 +249,7 @@ require('nvim-treesitter.configs').setup {
   auto_install = false,
 
   highlight = { enable = true },
-  indent = { enable = true, disable = { 'python' } },
+  indent = { enable = true, disable = { 'python', 'html' } },
   incremental_selection = {
     enable = true,
     keymaps = {
