@@ -1,8 +1,6 @@
 -- PLUGINS TO LOOK AT:
 -- LazyGit (+ FloatTerm says Dawgears)
 -- LazyDocker
---
-
 
 
 --  NOTE: Must happen before plugins are required (otherwise wrong leader will be used)
